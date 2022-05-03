@@ -47,6 +47,7 @@
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-laptop"></i> <span>Skills</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -112,47 +113,61 @@
           <h2>Skills</h2>
         </div>
 
-        <div class="row">
+        <div class="row" style="justify-content: center;">
 
-          <div class="col-lg-2 col-md-6 mt-5 mt-md-0">
+          <div class="col-lg-2 mt-5 mt-md-0">
             <div class="count-box">
               <i class="devicon-javascript-plain colored"></i>
               <span>JavaScript</span>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 mt-5 mt-md-0">
+          <div class="col-lg-2 mt-5 mt-md-0">
             <div class="count-box">
               <i class="devicon-react-original colored"></i>
               <span>React</span>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 mt-5 mt-lg-0">
+          <div class="col-lg-2 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="devicon-redux-original colored"></i>
               <span>Redux</span>
             </div>
           </div>
-
-          <div class="col-lg-2 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="devicon-nodejs-plain-wordmark colored"></i>
-              <span>Node</span>
-            </div>
-          </div>
           
-          <div class="col-lg-2 col-md-6 mt-5 mt-lg-0">
+          <div class="col-lg-2 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="devicon-html5-plain-wordmark colored"></i>
               <span>HTML</span>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 mt-5 mt-lg-0">
+          <div class="col-lg-2 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="devicon-css3-plain-wordmark colored"></i>
               <span>CSS</span>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="devicon-nodejs-plain-wordmark colored"></i>
+              <span>Node</span>
+            </div>
+          </div>
+
+          <div class="col-lg-2 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="devicon-express-original colored"></i>
+              <span>Express</span>
+            </div>
+          </div>
+
+          <div class="col-lg-2 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="devicon-postgresql-plain colored"></i>
+              <span>PostgreSQL</span>
             </div>
           </div>
 
@@ -203,7 +218,7 @@
               <h5>2021 - Present</h5>
               <p><em>Codecademy- San Francisco, CA</em></p>
               <ul>
-                <li>Full-Stack Engineering Bootcamp with real world projects using JavaScript, React, Redux, PostgreSQL, HTML, CSS, Node.js, Express.js.</li>
+                <li>Full-Stack Engineering Bootcamp with real world projects using JavaScript, React, Redux, PostgreSQL, HTML, CSS, Node.js, Express.js, Prisma ORM</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -223,8 +238,60 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- ======= Contact Section ======= -->
-   <!-- End Contact Section -->
+     <!-- ======= Portfolio Section ======= -->
+     <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>The following are a sample of projects I have built:</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" >
+              <div style="background-color: rgba(69, 80, 91, 0.8); height: 350px; ">
+                <a href="https://performance-journal-h.herokuapp.com/" target="blank"  >
+                  <img src="assets/img/portfolio/journal.png" class="img-fluid" alt="" style="height: 400px;">
+                </a>
+            </div>
+              <div class="portfolio-info">
+                <h4>Performance Journal</h4>
+                <p><i>Create and store journal entries </i></p>
+                <p>Technologies used: React, Redux, Bootstrap, Node, Express.js, Prisma ORM, Postgres</p>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" >
+            <div style="background-color: rgba(155, 158, 161, 0.8); height: 350px;">
+              <a href="http://btjammin.surge.sh/" target="blank"  >
+                <img src="assets/img/portfolio/playlist.png" class="img-fluid" alt="" style="height: 350px;" >
+              </a>
+          </div>
+            <div class="portfolio-info">
+              <h4>Jamming</h4>
+              <p><i>Create and update playlists using the Spotify API</i></p>
+              <p>Technologies used: React, Node</p>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app" >
+          <div style="height: 350px;">
+            <a href="https://quotes-api-node.herokuapp.com/" target="blank"  >
+              <img src="assets/img/portfolio/quote.png" class="img-fluid" alt="" style="height: 350px;" >
+            </a>
+        </div>
+          <div class="portfolio-info">
+            <h4>Quote API</h4>
+            <p><i>Look up quotes and add your own</i></p>
+            <p>Technologies used: Javascript, Node, Express</p>
+          </div>
+      </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
 
   </main><!-- End #main -->
 
